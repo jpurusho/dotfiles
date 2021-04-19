@@ -2,6 +2,7 @@
 zshrc, vimrc, bashrc, sublime text settings, vscode settings
 
 ZSH Setup:
+----------
 
 Follow README.md instructions on github for each of these extensions
 - First, install oh-my-zsh https://github.com/ohmyzsh/ohmyzsh.git
