@@ -1,8 +1,7 @@
 # dotfiles
 zshrc, vimrc, bashrc, sublime text settings, vscode settings
 
-ZSH Setup:
-----------
+## ZSH Setup:
 
 Follow README.md instructions on github for each of these extensions
 - First, install oh-my-zsh https://github.com/ohmyzsh/ohmyzsh.git
@@ -13,3 +12,8 @@ Follow README.md instructions on github for each of these extensions
 
 - Append to plugins in .zshrc
   -  plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
+
+## VIM setup:
+
+https://github.com/amix/vimrc
+
