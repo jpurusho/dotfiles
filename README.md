@@ -2,7 +2,6 @@
 zshrc, vimrc, bashrc, sublime text settings, vscode settings
 
 ## ZSH Setup:
-
 Follow README.md instructions on github for each of these extensions
 - First, install oh-my-zsh https://github.com/ohmyzsh/ohmyzsh.git
 - Then install zsh-autosuggestions, zsh-syntax-highlighting, zsh-completions
@@ -14,6 +13,7 @@ Follow README.md instructions on github for each of these extensions
   -  plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
 
 ## VIM setup:
-
 https://github.com/amix/vimrc
 
+## Mac OS Setup
+https://sourabhbajaj.com/mac-setup/
