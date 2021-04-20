@@ -17,3 +17,18 @@ https://github.com/amix/vimrc
 
 ## Mac OS Setup
 https://sourabhbajaj.com/mac-setup/
+
+## Adding SSH keys
+https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
+
+## Enable SSH Access to github
+* Generate ssh keys:
+  ssh-keygen -t ed25519 -C "email-id"
+* Edit ~/.ssh/config (create if missing)
+* Add the following entry:
+  IdentityFile ~/.ssh/id_ed25519
+  Host github.com
+  Hostname ssh.github.com
+  Port 443
+* Verify access:
+  ssh -T git@github.com
