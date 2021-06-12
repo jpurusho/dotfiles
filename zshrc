@@ -139,3 +139,9 @@ source $DOTFILES/zsh-prompt.sh
 
 # Enable glob match on command line
 unsetopt nomatch
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# Gopaths
+test ! -d $HOME/dev/golib && mkdir $_
+test ! -d $HOME/bin && mkdir $_
+source $DOTFILES/paths.go
