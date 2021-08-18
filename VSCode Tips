@@ -1,0 +1,5 @@
+The vim editor setting in VSCode does not repeat keystrokes. Pressing and holding 'j' does not continuously move the cursor.
+To enable that feature, run the following on a OSX terminal, and restart vscode.
+
+>defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
