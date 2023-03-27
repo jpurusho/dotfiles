@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vi $DOTFILES/zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 alias zshrc="source $DOTFILES/zshrc"
+alias cls=clear
 
 lsp() {
   if [ -n $1 ]
